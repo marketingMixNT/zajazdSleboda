@@ -12,9 +12,28 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            screens:{
+                xs:"390px"
             },
+            fontFamily: {
+                heading: ["Prata",'serif'],
+                text: ["Hind", 'sans-serif'],
+            },
+            colors:{
+                primary:{
+                    400:"#fff"
+                },
+                secondary:{
+                    400:"#ccc"
+                },
+                fontLight:{
+                    400:"#fff"
+                },
+                fontDark:{
+                    400:"#ccc"
+                }
+                
+            }
         },
     },
 
